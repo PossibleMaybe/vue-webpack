@@ -6,8 +6,17 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex';
 export default {
-  name: 'app'
+  name: 'app',
+  data(){
+      return {
+
+      }
+  },
+  /*computed:{
+      ...mapGetters(['doneTodos']),
+  }*/
 }
 </script>
 
