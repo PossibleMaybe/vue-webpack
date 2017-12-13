@@ -2,8 +2,11 @@
  * Created by yongchunwu on 2017/12/12.
  */
 
+import Vue from 'vue';
 import Vuex from 'vuex';
 
+
+Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
     todos: [

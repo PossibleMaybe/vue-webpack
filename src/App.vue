@@ -14,9 +14,12 @@ export default {
 
       }
   },
-  /*computed:{
+  computed:{
       ...mapGetters(['doneTodos']),
-  }*/
+  },
+  created(){
+    console.log('mapGetters',this.doneTodos);
+  }
 }
 </script>
 
